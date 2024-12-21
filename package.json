@@ -1,0 +1,17 @@
+{
+  "name": "poker-hands",
+  "version": "1.0.0",
+  "main": "src/pokerEvaluator.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node src/cli.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./test": "./src/testCases.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Poker hand evaluator using bit manipulation"
+}
